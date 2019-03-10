@@ -33,4 +33,24 @@ class ProjectController extends Controller
 
 
     }
+
+    public function show()
+    {
+
+    }
+
+    public function update()
+    {
+
+    }
+
+    public function destroy()
+    {
+
+    }
+
+    public function edit()
+    {
+        return view('projects.edit');
+    }
 }

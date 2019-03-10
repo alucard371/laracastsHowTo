@@ -7,6 +7,11 @@
     <title>@yield('title', 'Default title')</title>
 </head>
 <body>
-    @yield('content')
+
+    <div class="container">
+        @yield('content')
+        <h1>test</h1>
+    </div>
+
 </body>
 </html>
